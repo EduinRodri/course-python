@@ -274,8 +274,7 @@ while execute < attempts:
                 print("No puede salir sin pagar.")
             else:
                 print("Gracias por usar nuestra app del restaurante")
-                execute = False
-
+                exit()
 
 if execute == attempts:
     print("Ha exedido el número máximo de intentos. La app se cerrará")
